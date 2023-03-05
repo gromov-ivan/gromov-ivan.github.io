@@ -3,10 +3,6 @@ import './styling/home.css'
 import PDF from '../assets/Ivan_Gromov_CV.pdf';
 
 export default function Home() {
-  const openResume = () => {
-    window.open(`file:///home/ivan_gromov/react-portfolio-1/src/assets/Ivan_Gromov_CV.pdf`, '_blank');
-  };
-
   return (
     <section className="home-page" id="home">
       <div className="container">
@@ -21,7 +17,7 @@ export default function Home() {
               </h5>
               <a href={PDF} without rel="noopener noreferrer" target="_blank">
                 <button type="button" className="resume-button">
-                  My resume
+                  my resume
                 </button>
               </a>
             </div>

@@ -20,7 +20,7 @@ export default function Contact() {
         <div className="row">
           <div className="col-xs-6 col-md-6">
             <div className="copyright-text">
-              <h5>© 2023. All rights reserved.</h5>
+              <h5>© 2023 all rights reserved.</h5>
             </div>
           </div>
           <div className="col-xs-6 col-md-6">
