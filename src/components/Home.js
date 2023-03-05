@@ -17,7 +17,7 @@ export default function Home() {
               </h5>
               <a href={PDF} without rel="noopener noreferrer" target="_blank">
                 <button type="button" className="resume-button">
-                  my resume
+                  My Resume
                 </button>
               </a>
             </div>
