@@ -1,94 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 .App {
-  text-align: center;
   font-family: 'Open Sans', sans-serif;
 }
 
-/* Components */
-nav.navbar {
-  background-color: #f8f4e8;
-  position: fixed;
-  align-items: center;
-  display: flex;
-  width: 100%;
-  transition: 300ms;
-}
-
-nav.navbar.scrolled {
-  box-shadow: 0 1px 4px -2px #4c4c4c;
-  /*box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);*/
-}
-
-.navbar-links {
-  color: dark;
-  font-size: xx-large;
-}
-
-.navbar-brand {
-  border: 2px solid #706e69;
-  padding: 12px;
-  border-radius: 8px;
-  transition: 200ms;
-}
-
-.navbar-brand:hover {
-  background-color: #66fc91;
-}
-
-.home-page {
-  margin-top: 0;
-  height: 95vh;
-  padding: 360px 0 200px 0;
-  background-color: #f8f4e8;
-  color: #000000;
-  border-bottom: 2px solid #4c4c4c;
-}
-
-.about-page {
-  margin-top: 0;
-  height: 90vh;
-  padding: 300px 0 200px 0;
-  background-color: #f8f8f8;
-  color: #4c4c4c;
-  border-bottom: 2px solid #4c4c4c;
-}
-
-.projects-page {
-  margin-top: 0;
-  height: 90vh;
-  padding: 300px 0 200px 0;
-  color: #4c4c4c;
-  border-bottom: 2px solid #4c4c4c;
-}
-
-.contact-page {
-  margin-top: 0;
-  height: 30vh;
-  padding: 90px 0;
-  background-color: #f8f8f8;
-  color: #4c4c4c;
-}
-
-.my-title {
-  background-color: #66fc91;
-  display: inline-block;
-  padding: 1px 12px;
-}
-
-.resume-button {
-  margin-top: 120px;
-  border: 2px solid #706e69;
-  padding: 4px;
-  border-radius: 8px;
-  transition: 200ms;
-}
-
-.resume-button:hover {
-  background-color: #66fc91;
-}
-
-/* Default CSS */
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 75px;

@@ -1,0 +1,31 @@
+.home-page {
+  margin-top: 0;
+  height: 95vh;
+  padding-top: 10%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  background-color: #f8f4e8;
+  border-bottom: 2px solid #706e69;
+}
+
+  .my-title {
+    display: inline-block;
+    padding: 1px 12px;
+    background-color: #66fc91;
+  }
+
+  .resume-button {
+    margin-top: 120px;
+    padding: 5px 15px;
+    min-width: 110px;
+    border: 2px solid #706e69;
+    border-radius: 20px;
+    transition: 0.2s;
+    background-color: #f8f4e8;
+  }
+
+  .resume-button:hover {
+    background-color: #66fc91;
+  }

@@ -1,0 +1,18 @@
+.contact-page {
+    margin-top: 0;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    color: #4c4c4c;
+    background-color: #f8f8f8;
+  }
+
+  .contact-page .row > div:last-child {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  .contact-text h5{
+    font-weight: bold;
+  }

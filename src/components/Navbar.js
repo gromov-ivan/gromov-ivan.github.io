@@ -1,4 +1,5 @@
 import React from 'react'
+import './styling/navbar.css'
 import { useState, useEffect } from "react";
 import { Container, Nav, Navbar } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -14,12 +15,12 @@ export default function NavBar() {
       } else {
         setScrolled(false);
       }
-    }
+    };
 
     window.addEventListener("scroll", onScroll);
 
     return () => window.removeEventListener("scroll", onScroll);
-  }, [])
+  }, []);
 
   useEffect(() => {
     const handleScroll = () => {
