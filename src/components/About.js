@@ -21,13 +21,13 @@ export default function About() {
           <div className="col-md-2">
             <Nav className="flex-column">
               <Nav.Item>
-                <Nav.Link className="tab-link" eventKey="about-me">about me</Nav.Link>
+                <Nav.Link className="tab-link" eventKey="about-me">About me</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link className="tab-link" eventKey="skills">skills</Nav.Link>
+                <Nav.Link className="tab-link" eventKey="skills">Skills</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link className="tab-link" eventKey="education">education</Nav.Link>
+                <Nav.Link className="tab-link" eventKey="education">Education</Nav.Link>
               </Nav.Item>
             </Nav>
           </div>
@@ -35,7 +35,7 @@ export default function About() {
             <Tab.Content>
               <Tab.Pane eventKey="about-me">
                 <div className="about-text">
-                  <h2>about me</h2>
+                  <h2>About Me</h2>
                   <br/>
                   <p>
                     Enthusiastic and responsible Software Engineering student with the desire to
@@ -50,7 +50,7 @@ export default function About() {
               </Tab.Pane>
               <Tab.Pane eventKey="skills">
                 <div className="skills-text">
-                  <h2>skills</h2>
+                  <h2>Skills</h2>
                   <br/>
                   <p>
                     I am pursuing Bachelor's Degree in Software Engineering at Tampere University of
@@ -69,7 +69,7 @@ export default function About() {
               </Tab.Pane>
               <Tab.Pane eventKey="education">
                 <div className="education-text">
-                  <h2>education</h2>
+                  <h2>Education</h2>
                   <br/>
                   <p>
                     Bachelor's Degree Programme in Software Engineering,<br />Tampere
