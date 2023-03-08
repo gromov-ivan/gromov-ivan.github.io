@@ -8,7 +8,7 @@ export default function Projects() {
         <div className="row">
           <div className="col-xs-12 col-md-6">
             <div className="projects-text">
-              <h2>my projects</h2>
+              <h2>My projects</h2>
               <br />
               <p>
                 Full-Stack Web Application, To-Do — React, Node.js, MongoDB, Docker.

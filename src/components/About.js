@@ -35,7 +35,7 @@ export default function About() {
             <Tab.Content>
               <Tab.Pane eventKey="about-me">
                 <div className="about-text">
-                  <h2>About Me</h2>
+                  <h2>About me</h2>
                   <br/>
                   <p>
                     Enthusiastic and responsible Software Engineering student with the desire to
@@ -55,7 +55,7 @@ export default function About() {
                   <p>
                     I am pursuing Bachelor's Degree in Software Engineering at Tampere University of
                     Applied Sciences. During my education and self-study, I have acquired knowledge in
-                    JavaScript, React, Node.js, MongoDB, and Docker, which I use in my web development
+                    JavaScript, React, Bootstrap, Node.js, MongoDB, and Docker, which I use in my web development
                     projects.
                   </p>
                   <p>

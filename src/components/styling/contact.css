@@ -14,7 +14,9 @@
   }
 
   .contact-text h5{
+    /*
     color: #ff6201;
+    */
 
     /* Variant 2
     color: #ffffff;
@@ -23,10 +25,9 @@
     background-color: #ff6201;
     */
 
-    /* Variant 3
+    /* Variant 3 */
     color: #000000;
     display: inline-block;
-    padding: 1px 12px;
+    padding: 1px 6px;
     background-color: #66fc91;
-    */
   }

@@ -4,7 +4,7 @@ My new portfolio website which is currently being developed
 ## Technologies
 React, Bootstrap 5.2
 
-## Work-in-progress
+## Preview (work-in-progress)
 <img
   src="src/assets/home-page.jpg"
   alt="Home Page unfinished"
