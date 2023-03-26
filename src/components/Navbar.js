@@ -65,9 +65,11 @@ export default function NavBar() {
   }, []);
 
   return (
-    <Navbar id="my-navbar" variant="light" sticky="top" className={scrolled ? "scrolled" : ""}>
-        <Container>
-          <Navbar.Brand href="/" className="navbar-brand">Ivan Gromov</Navbar.Brand>
+    <Navbar id="my-navbar" variant="light" sticky="top" className={scrolled ? "scrolled" : ""} expand="lg">
+      <Container>
+        <Navbar.Brand href="/" className="navbar-brand">Ivan Gromov</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#home" className='navbar-home active'>Home</Nav.Link>
             <Nav.Link href="#about" className='navbar-about'>About</Nav.Link>
@@ -85,7 +87,8 @@ export default function NavBar() {
               <FontAwesomeIcon icon={faInstagramSquare} className="InstagramBtn"></FontAwesomeIcon>
             </Nav.Link>
           </Nav>
-        </Container>
+        </Navbar.Collapse>
+      </Container>
     </Navbar>
   )
 }
