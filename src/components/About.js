@@ -5,6 +5,7 @@ import Photo1 from '../assets/my-photo-1.jpg';
 import Photo2 from '../assets/my-photo-2.jpg';
 import Photo3 from '../assets/my-photo-3.jpg';
 import Photo4 from '../assets/my-photo-4.jpg';
+import Photo5 from '../assets/my-photo-5.jpg';
 
 export default function About() {
   const [activeKey, setActiveKey] = useState("about-me");
@@ -93,7 +94,7 @@ export default function About() {
               fade={true}
               controls={true}
               indicators={false}
-              interval={10000}
+              interval={9000}
               >
               <Carousel.Item key={1}>
                 <img className="d-block w-100" src={Photo1} alt="My Photo 1" />
@@ -106,6 +107,9 @@ export default function About() {
               </Carousel.Item>
               <Carousel.Item key={4}>
                 <img className="d-block w-100" src={Photo4} alt="My Photo 4" />
+              </Carousel.Item>
+              <Carousel.Item key={5}>
+                <img className="d-block w-100" src={Photo5} alt="My Photo 5" />
               </Carousel.Item>
             </Carousel>
           </div>
