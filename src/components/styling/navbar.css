@@ -34,6 +34,10 @@ nav.navbar {
       box-shadow: 0 1px 4px -2px #4c4c4c;
       transition: none;
     }
+    nav.navbar.menu-open {
+      box-shadow: 0 1px 4px -2px #4c4c4c;
+      transition: none;
+    }
     .navbar-brand {
       margin: 10px;
     }
@@ -48,14 +52,30 @@ nav.navbar {
     }
     .me-auto {
       align-items: center;
-      margin: 10px;
+      padding: 10px;
+      font-size: large;
     }
     .navbar-links {
       display: flex;
       flex-direction: row;
-      justify-content: space-evenly;
+      justify-content: center;
       align-items: center;
+      flex-wrap: wrap;
       width: 100%;
       height: 100%;
+    }
+    .GitHubBtn {
+      align-self: center;
+      margin-right: 10px;
+    }
+    .LinkedInBtn {
+      align-self: center;
+    }
+    .collapsing {
+      -webkit-transition: height 0.01s;
+      -moz-transition: height 0.01s;
+      -ms-transition: height 0.01s;
+      -o-transition: height 0.01s;
+      transition: height 0.01s;
     }
   }

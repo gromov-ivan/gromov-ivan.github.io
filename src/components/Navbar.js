@@ -7,6 +7,7 @@ import { faLinkedin, faGithub, faInstagramSquare } from '@fortawesome/free-brand
 
 export default function NavBar() {
   const [scrolled, setScrolled] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
     const onScroll = () => {
@@ -64,11 +65,15 @@ export default function NavBar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
-    <Navbar id="my-navbar" variant="light" sticky="top" className={scrolled ? "scrolled" : ""} expand="lg">
+    <Navbar id="my-navbar" variant="light" sticky="top" className={`${scrolled ? "scrolled" : ""} ${menuOpen ? "menu-open" : ""}`} expand="lg">
       <Container>
         <Navbar.Brand href="/" className="navbar-brand">Ivan Gromov</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={toggleMenu} />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#home" className='navbar-home active'>Home</Nav.Link>
@@ -82,9 +87,6 @@ export default function NavBar() {
             </Nav.Link>
             <Nav.Link href="https://www.linkedin.com/in/ivan-gromov-7a5646230/" target="_blank">
               <FontAwesomeIcon icon={faLinkedin} className="LinkedInBtn"></FontAwesomeIcon>
-            </Nav.Link>
-            <Nav.Link href="https://www.instagram.com/grcmcv/" target="_blank">
-              <FontAwesomeIcon icon={faInstagramSquare} className="InstagramBtn"></FontAwesomeIcon>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
