@@ -31,3 +31,9 @@
   .resume-button:hover {
     background-color: #66fc91;
   }
+
+  @media (max-width: 540px) {
+    .home-page {
+      padding-top: 20%;
+    }
+  }
